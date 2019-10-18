@@ -50,7 +50,6 @@ end
 
 def reduce_to_all_true(array)
     counter = 0
-  total_of_numbers = st
   while counter < numbers.length do
     total_of_numbers = numbers.sum + starting_point
     counter += 1

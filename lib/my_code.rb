@@ -51,7 +51,8 @@ end
 def reduce_to_all_true(array)
     counter = 0
   while counter < numbers.length do
-    total_of_numbers = numbers.sum + starting_point
+    if array[counter] do
+      
     counter += 1
   end
   total_of_numbers

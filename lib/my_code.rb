@@ -38,7 +38,7 @@ def map_to_square(numbers)
   new_numbers
 end
 
-def reduce_to_total(numbers, starting_point)
+def reduce_to_total(numbers, starting_point = 0)
   counter = 0
   total_of_numbers = Integer
   while counter < numbers.length do

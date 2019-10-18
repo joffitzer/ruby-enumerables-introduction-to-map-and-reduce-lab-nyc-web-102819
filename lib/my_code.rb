@@ -49,6 +49,13 @@ def reduce_to_total(numbers, starting_point = 0)
 end
 
 def reduce_to_all_true
+    counter = 0
+  total_of_numbers = Integer
+  while counter < numbers.length do
+    total_of_numbers = numbers.sum + starting_point
+    counter += 1
+  end
+  total_of_numbers
 end
 
 def reduce_to_any_true

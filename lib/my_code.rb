@@ -40,7 +40,7 @@ end
 
 def reduce_to_total(numbers, starting_point = 0)
   counter = 0
-  total_of_numbers = Integer
+  total_of_numbers = starting_point
   while counter < numbers.length do
     total_of_numbers = numbers.sum + starting_point
     counter += 1
@@ -50,7 +50,7 @@ end
 
 def reduce_to_all_true(numbers)
     counter = 0
-  total_of_numbers = Integer
+  total_of_numbers = st
   while counter < numbers.length do
     total_of_numbers = numbers.sum + starting_point
     counter += 1

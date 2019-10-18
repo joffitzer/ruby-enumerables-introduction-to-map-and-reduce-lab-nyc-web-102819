@@ -54,7 +54,6 @@ def reduce_to_all_true(array)
       return false if array[counter] = false
     counter += 1
   end
-  total_of_numbers
 end
 
 def reduce_to_any_true

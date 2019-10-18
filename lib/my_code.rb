@@ -39,8 +39,13 @@ def map_to_square(numbers)
 end
 
 def reduce_to_total(source_array, starting_point)
-  total_number = source_array.sum + starting_point
-  total_number
+  counter = 0
+  total_of_numbers = Integer
+  while counter < numbers.length do
+    new_numbers << numbers[counter] ** 2
+    counter += 1
+  end
+  total_of_numbers
 end
 
 def reduce_to_all_true

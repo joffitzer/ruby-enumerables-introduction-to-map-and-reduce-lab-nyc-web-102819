@@ -42,7 +42,7 @@ def reduce_to_total(numbers, starting_point = 0)
   counter = 0
   total_of_numbers = Integer
   while counter < numbers.length do
-    total_of_numbers.sum(numbers, starting_point) 
+    total_of_numbers = numbers.sum + starting_point
     counter += 1
   end
   total_of_numbers
